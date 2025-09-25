@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2025-09-25T20:09:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">La Terminal de Macale</title><subtitle>Plataforma Educatica Informática</subtitle><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><entry><title type="html">Post de prueba</title><link href="http://localhost:4000/prueba/" rel="alternate" type="text/html" title="Post de prueba" /><published>2025-09-22T13:00:00+02:00</published><updated>2025-09-22T13:00:00+02:00</updated><id>http://localhost:4000/prueba</id><content type="html" xml:base="http://localhost:4000/prueba/"><![CDATA[<h1 id="post-de-prueba">Post de prueba</h1>
+
+<p><em>Este es un <strong>post de prueba</strong> creado para verificar que el buscador en la página de <code class="language-plaintext highlighter-rouge">tags</code> funciona correctamente.</em></p>
+
+<p><em>Incluye el tag <strong>implantacion-de-aplicaciones-web</strong>, así que debería aparecer cuando lo busques en la barra de búsqueda de <code class="language-plaintext highlighter-rouge">/tags/</code>.</em></p>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="jekyll" /><summary type="html"><![CDATA[Un post de prueba para verificar el buscador en tags.]]></summary></entry><entry><title type="html">Pasos para realizar un Pull Request en GitHub</title><link href="http://localhost:4000/github/" rel="alternate" type="text/html" title="Pasos para realizar un Pull Request en GitHub" /><published>2024-09-29T12:00:00+02:00</published><updated>2024-09-29T12:00:00+02:00</updated><id>http://localhost:4000/github</id><content type="html" xml:base="http://localhost:4000/github/"><![CDATA[<h1 id="pull-request">Pull Request:</h1>
+
+<h3 id="qué-es-un-pull-request">¿Qué es un Pull Request?</h3>
+
+<p><em>Un Pull Request es una petición que se hace al propietario de un repositorio original en GitHub para que este último incorpore los cambios que se sugieren. Los Pull Request se han convertido en la forma más habitual de colaborar en proyectos de software libre.</em></p>
+
+<h3 id="pasos-para-realizar-un-pull-request">Pasos para realizar un Pull Request:</h3>
+
+<p><img src="/assets/img/PR1.png" alt="1" /></p>
+
+<h3 id="sincronización-de-nuestro-fork-con-el-repositorio-original">Sincronización de nuestro Fork con el repositorio original.</h3>
+
+<p><img src="/assets/img/PR2.png" alt="2" /></p>
+
+<p><a href="https://www.josedomingo.org/pledin/2022/09/que-es-pull-requests/">¿Cómo colaborar en un proyecto de software libre? ¿Qué es un Pull Request? </a></p>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="implantacion-de-aplicaciones-web" /><summary type="html"><![CDATA[Pull Request:]]></summary></entry><entry><title type="html">Introducción a Git</title><link href="http://localhost:4000/git/" rel="alternate" type="text/html" title="Introducción a Git" /><published>2024-09-28T12:00:00+02:00</published><updated>2024-09-28T12:00:00+02:00</updated><id>http://localhost:4000/git</id><content type="html" xml:base="http://localhost:4000/git/"><![CDATA[<h1 id="git">Git</h1>
+
+<p><strong>Es un software de control de versiones diseñado por Linus Torvalds. Nos ayuda a llevar registro de los cambios de los ficheros de un repositorio (directorio) local.</strong></p>
+
+<h3 id="instalación-de-git">Instalación de Git</h3>
+
+<p><em>Instalación de git:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>apt <span class="nb">install </span>git
+</code></pre></div></div>
+
+<p><em>Configuración de git:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"José Domingo Muñoz"</span>
+git config <span class="nt">--global</span> user.email josedom@correo.com
+</code></pre></div></div>
+
+<h3 id="uso-básico-de-git">Uso básico de git</h3>
+
+<p><em>Creamos un directorio</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>curso-de-git
+<span class="nv">$ </span><span class="nb">cd </span>curso-de-git
+</code></pre></div></div>
+
+<p><em>Inicializamos el repositorio:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git init
+Inicializado repositorio Git vacío en ...
+</code></pre></div></div>
+
+<p><em>Se ha creado el directorio .git. El fichero de configuración del repositorio en .git/config</em></p>
+
+<h3 id="añadir-ficheros">Añadir Ficheros</h3>
+
+<p><em>Añadimos un nuevo fichero al repositorio:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"Esto es una prueba"</span><span class="o">&gt;</span>ejemplo.txt
+git add ejemplo.txt
+</code></pre></div></div>
+
+<p><em>Y confirmamos los cambios:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"He creado el fichero ejemplo.txt"</span>
+</code></pre></div></div>
+
+<h3 id="modificar-un-fichero">Modificar un fichero</h3>
+
+<p><em>Al modificar un fichero, podemos confirmar el cambio pero tenemos que usar la opción a</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nano ejemplo.txt
+git commit <span class="nt">-am</span> <span class="s2">"He modificado el fichero ejemplo.txt"</span>
+</code></pre></div></div>
+
+<h3 id="estado-del-repositorio">Estado del repositorio</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status
+</code></pre></div></div>
+
+<p><em>Listado de commits:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log
+</code></pre></div></div>
+
+<h3 id="otras-operaciones">Otras operaciones</h3>
+
+<p><em>Cambiar nombre a fichero:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nb">mv </span>ejemplo.txt ejemplo2.txt
+git commit <span class="nt">-am</span> <span class="s2">"He cambiado el nombre del fichero"</span>
+</code></pre></div></div>
+
+<p><em>Eliminar un fichero</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nb">rm </span>ejemplo2.txt
+git commit <span class="nt">-am</span> <span class="s2">"He borrado el fichero ejemplo2
+</span></code></pre></div></div>
+
+<h3 id="volviendo-a-versiones-anteriores">Volviendo a versiones anteriores</h3>
+
+<p><em>Si queremos volver a un commit anterior sin perder las modificaciones posteriores</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout &lt;<span class="nb">id </span>del commit&gt;
+</code></pre></div></div>
+
+<p><em>Para volver a la última versión:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git switch -
+</code></pre></div></div>
+
+<p><em>Si quiero eliminar los últimos 3 commits:</em></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--hard</span> HEAD~3
+</code></pre></div></div>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="implantacion-de-aplicaciones-web" /><summary type="html"><![CDATA[Git]]></summary></entry></feed>
