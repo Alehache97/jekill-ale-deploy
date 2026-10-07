@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "Post de prueba",
+      "description" : "Un post de prueba para verificar el buscador en tags.",
+      "tags"     : "jekyll",
+      "url"      : "/prueba/",
+      "date"     : "2025-09-22 13:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Post de prueba en la aso",
+      "description" : "Un post de prueba para verificar el buscador en tags.",
+      "tags"     : "jekyll",
+      "url"      : "/prueba-copy/",
+      "date"     : "2025-09-22 13:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Pasos para realizar un Pull Request en GitHub",
+      "description" : "",
+      "tags"     : "implantacion-de-aplicaciones-web",
+      "url"      : "/github/",
+      "date"     : "2024-09-29 12:00:00 +0200"
+    } ,
+  
+    {
+      "title"    : "Introducción a Git",
+      "description" : "",
+      "tags"     : "implantacion-de-aplicaciones-web",
+      "url"      : "/git/",
+      "date"     : "2024-09-28 12:00:00 +0200"
+    } 
+  
+]
