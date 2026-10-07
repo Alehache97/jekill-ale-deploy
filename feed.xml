@@ -1,6 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://klise.now.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://klise.now.sh/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2024-10-14T10:54:30+02:00</updated><id>https://klise.now.sh/feed.xml</id><title type="html">OPENALE 3.0</title><subtitle>Plataforma Educatica Informática</subtitle><author><name>OPENALE 3.0</name><email>alejandro@gmail.com</email></author><entry><title type="html">Prueba: Introducción a la implantación de aplicaciones web</title><link href="https://klise.now.sh/prueba2/" rel="alternate" type="text/html" title="Prueba: Introducción a la implantación de aplicaciones web" /><published>2024-10-13T12:30:00+02:00</published><updated>2024-10-13T12:30:00+02:00</updated><id>https://klise.now.sh/prueba2</id><content type="html" xml:base="https://klise.now.sh/prueba2/"><![CDATA[<p>Alejandro Herrera Jiménez</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES"><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://klise.now.sh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://klise.now.sh/" rel="alternate" type="text/html" hreflang="es-ES" /><updated>2026-10-07T13:16:55+02:00</updated><id>https://klise.now.sh/feed.xml</id><title type="html">La Terminal de Macale</title><subtitle>Plataforma Educatica Informática</subtitle><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><entry><title type="html">Post de prueba en la aso</title><link href="https://klise.now.sh/prueba-copy/" rel="alternate" type="text/html" title="Post de prueba en la aso" /><published>2025-09-22T13:00:00+02:00</published><updated>2025-09-22T13:00:00+02:00</updated><id>https://klise.now.sh/prueba%20copy</id><content type="html" xml:base="https://klise.now.sh/prueba-copy/"><![CDATA[<h1 id="post-de-prueba">Post de prueba</h1>
 
-<p><img src="/assets/img/lazytown.gif" alt="1" /></p>]]></content><author><name>OPENALE 3.0</name><email>alejandro@gmail.com</email></author><category term="Examen" /><category term="Prueba" /><category term="Ejercicio 2" /><summary type="html"><![CDATA[Alejandro Herrera Jiménez]]></summary></entry><entry><title type="html">HOLA MUNDO</title><link href="https://klise.now.sh/hola/" rel="alternate" type="text/html" title="HOLA MUNDO" /><published>2024-10-05T13:30:00+02:00</published><updated>2024-10-05T13:30:00+02:00</updated><id>https://klise.now.sh/hola</id><content type="html" xml:base="https://klise.now.sh/hola/"><![CDATA[<h1 id="hola-mundo">HOLA MUNDO!!!</h1>]]></content><author><name>OPENALE 3.0</name><email>alejandro@gmail.com</email></author><category term="Hola" /><category term="Adios" /><summary type="html"><![CDATA[HOLA MUNDO!!!]]></summary></entry><entry><title type="html">Introducción a Git</title><link href="https://klise.now.sh/git/" rel="alternate" type="text/html" title="Introducción a Git" /><published>2024-10-01T12:00:00+02:00</published><updated>2024-10-01T12:00:00+02:00</updated><id>https://klise.now.sh/git</id><content type="html" xml:base="https://klise.now.sh/git/"><![CDATA[<h1 id="git">Git</h1>
+<p>Esto es un mensaje de prueba con kevin.</p>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="jekyll" /><summary type="html"><![CDATA[Un post de prueba para verificar el buscador en tags.]]></summary></entry><entry><title type="html">Post de prueba</title><link href="https://klise.now.sh/prueba/" rel="alternate" type="text/html" title="Post de prueba" /><published>2025-09-22T13:00:00+02:00</published><updated>2025-09-22T13:00:00+02:00</updated><id>https://klise.now.sh/prueba</id><content type="html" xml:base="https://klise.now.sh/prueba/"><![CDATA[<h1 id="post-de-prueba">Post de prueba</h1>
+
+<p><em>Este es un <strong>post de prueba</strong> creado para verificar que el buscador en la página de <code class="language-plaintext highlighter-rouge">tags</code> funciona correctamente.</em></p>
+
+<p><em>Incluye el tag <strong>implantacion-de-aplicaciones-web</strong>, así que debería aparecer cuando lo busques en la barra de búsqueda de <code class="language-plaintext highlighter-rouge">/tags/</code>.</em></p>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="jekyll" /><summary type="html"><![CDATA[Un post de prueba para verificar el buscador en tags.]]></summary></entry><entry><title type="html">Pasos para realizar un Pull Request en GitHub</title><link href="https://klise.now.sh/github/" rel="alternate" type="text/html" title="Pasos para realizar un Pull Request en GitHub" /><published>2024-09-29T12:00:00+02:00</published><updated>2024-09-29T12:00:00+02:00</updated><id>https://klise.now.sh/github</id><content type="html" xml:base="https://klise.now.sh/github/"><![CDATA[<h1 id="pull-request">Pull Request:</h1>
+
+<h3 id="qué-es-un-pull-request">¿Qué es un Pull Request?</h3>
+
+<p><em>Un Pull Request es una petición que se hace al propietario de un repositorio original en GitHub para que este último incorpore los cambios que se sugieren. Los Pull Request se han convertido en la forma más habitual de colaborar en proyectos de software libre.</em></p>
+
+<h3 id="pasos-para-realizar-un-pull-request">Pasos para realizar un Pull Request:</h3>
+
+<p><img src="/assets/img/PR1.png" alt="1" /></p>
+
+<h3 id="sincronización-de-nuestro-fork-con-el-repositorio-original">Sincronización de nuestro Fork con el repositorio original.</h3>
+
+<p><img src="/assets/img/PR2.png" alt="2" /></p>
+
+<p><a href="https://www.josedomingo.org/pledin/2022/09/que-es-pull-requests/">¿Cómo colaborar en un proyecto de software libre? ¿Qué es un Pull Request? </a></p>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="implantacion-de-aplicaciones-web" /><summary type="html"><![CDATA[Pull Request:]]></summary></entry><entry><title type="html">Introducción a Git</title><link href="https://klise.now.sh/git/" rel="alternate" type="text/html" title="Introducción a Git" /><published>2024-09-28T12:00:00+02:00</published><updated>2024-09-28T12:00:00+02:00</updated><id>https://klise.now.sh/git</id><content type="html" xml:base="https://klise.now.sh/git/"><![CDATA[<h1 id="git">Git</h1>
 
 <p><strong>Es un software de control de versiones diseñado por Linus Torvalds. Nos ayuda a llevar registro de los cambios de los ficheros de un repositorio (directorio) local.</strong></p>
 
@@ -93,18 +111,4 @@ git commit <span class="nt">-am</span> <span class="s2">"He borrado el fichero e
 <p><em>Si quiero eliminar los últimos 3 commits:</em></p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--hard</span> HEAD~3
-</code></pre></div></div>]]></content><author><name>OPENALE 3.0</name><email>alejandro@gmail.com</email></author><category term="tips" /><category term="git" /><category term="software" /><summary type="html"><![CDATA[Git]]></summary></entry><entry><title type="html">Pasos para realizar un Pull Request en GitHub</title><link href="https://klise.now.sh/github/" rel="alternate" type="text/html" title="Pasos para realizar un Pull Request en GitHub" /><published>2024-09-29T13:30:00+02:00</published><updated>2024-09-29T13:30:00+02:00</updated><id>https://klise.now.sh/github</id><content type="html" xml:base="https://klise.now.sh/github/"><![CDATA[<h1 id="pull-request">Pull Request:</h1>
-
-<h3 id="qué-es-un-pull-request">¿Qué es un Pull Request?</h3>
-
-<p><em>Un Pull Request es una petición que se hace al propietario de un repositorio original en GitHub para que este último incorpore los cambios que se sugieren. Los Pull Request se han convertido en la forma más habitual de colaborar en proyectos de software libre.</em></p>
-
-<h3 id="pasos-para-realizar-un-pull-request">Pasos para realizar un Pull Request:</h3>
-
-<p><img src="/assets/img/PR1.png" alt="1" /></p>
-
-<h3 id="sincronización-de-nuestro-fork-con-el-repositorio-original">Sincronización de nuestro Fork con el repositorio original.</h3>
-
-<p><img src="/assets/img/PR2.png" alt="2" /></p>
-
-<p><a href="https://www.josedomingo.org/pledin/2022/09/que-es-pull-requests/">¿Cómo colaborar en un proyecto de software libre? ¿Qué es un Pull Request? </a></p>]]></content><author><name>OPENALE 3.0</name><email>alejandro@gmail.com</email></author><category term="GitHub" /><category term="Repostorios Remotos" /><category term="IAW" /><summary type="html"><![CDATA[Pull Request:]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name>&gt;_ La Terminal de Macale</name><email>alejandrohjasir@gmail.com</email></author><category term="implantacion-de-aplicaciones-web" /><summary type="html"><![CDATA[Git]]></summary></entry></feed>
